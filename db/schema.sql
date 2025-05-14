@@ -17,7 +17,7 @@ CREATE TABLE role (
 );
 
 CREATE TABLE employees (
-    id SERIAL PRIMARY KEY,
+    id SERIAL PRIMARY KEY
     first_name VARCHAR(50),
     last_name VARCHAR(50),
     role_id INTEGER,
